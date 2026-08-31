@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Segurança Digital para a Melhor Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>👴👵 Na Dúvida, Não Compartilhe!</h1>
+        <p>Um guia simples para ajudar você a identificar notícias falsas na internet.</p>
+    </header>
+
+    <main class="container">
+        
+        <section class="card">
+            <h2>🚨 5 Passos para Descobrir se uma Notícia é Falsa</h2>
+            <ul>
+                <li><strong>1. Olhe quem enviou:</strong> Recebeu no WhatsApp? Pergunte-se de onde a pessoa tirou essa informação.</li>
+                <li><strong>2. Leia além da manchete:</strong> Títulos exagerados ou chamativos costumam ser feitos apenas para enganar.</li>
+                <li><strong>3. Verifique a data:</strong> Às vezes a notícia é verdadeira, mas aconteceu anos atrás e está fora de contexto.</li>
+                <li><strong>4. Procure no Google:</strong> Digite o assunto no Google e veja se jornais conhecidos estão falando sobre isso.</li>
+                <li><strong>5. Cuidado com mensagens emotivas:</strong> Fique atento a textos que causam muito medo, raiva ou promovem "milagres".</li>
+            </ul>
+        </section>
+
+        <section class="card quiz">
+            <h2>❓ Teste Rápido: É Verdade ou Fake?</h2>
+            <p id="pergunta">Uma mensagem promete um benefício do governo, mas pede para você clicar em um link estranho e repassar para 10 amigos. O que fazer?</p>
+            
+            <div class="botoes">
+                <button onclick="verificarResposta(false)">Verdadeiro (Vou compartilhar)</button>
+                <button onclick="verificarResposta(true)">Falso (É golpe! Vou apagar)</button>
+            </div>
+
+            <p id="resultado" class="resultado"></p>
+        </section>
+
+        <section class="card links">
+            <h2>🔍 Sites Confiáveis de Checagem</h2>
+            <p>Se tiver dúvidas, pesquise nestes sites especializados em desmentir boatos:</p>
+            <ul>
+                <li><a href="https://g1.globo.com/fato-ou-fake/" target="_blank">Fato ou Fake (G1)</a></li>
+                <li><a href="https://uol.com.br/confere" target="_blank">UOL Confere</a></li>
+                <li><a href="https://aosfatos.org/" target="_blank">Aos Fatos</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Feito para proteger quem a gente ama. ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
